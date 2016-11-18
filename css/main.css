@@ -1,0 +1,58 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	padding: 0;
+}
+.jumbotron{
+	background: url("../img/banner.jpeg");
+	background-size: cover;
+}
+nav{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	margin-bottom: 0px !important;
+	z-index: 999;
+	background-color:#fff;
+	border-radius: 0px !important;
+	border-bottom:solid 4px #ccc !important;
+}
+nav a{
+	color:#000;
+	font-size:1em;
+}
+.favImg{
+	width: 200px;
+	margin:0 auto;
+}
+.navbar .navbar-toggle .icon-bar {
+	color:#000;
+	background: #000;
+}
+.jumbotron .container h1, .jumbotron .container p{
+	color:#fff;
+	text-shadow: 2px 2px 4px #333;
+}
+#thirdRow{
+	background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/45degreee_fabric.png) repeat;
+	padding-top:35px;
+	padding-bottom: 25px;
+	margin-top:25px;
+}
+.panel-heading{
+	cursor: pointer;
+	background: #2f6fa8 !important;
+	color: #fff !important;
+	border-radius: 0;
+}
+.panel-group .panel{
+	border-radius: 0;
+}
+@media screen and (max-width: 990px){
+	.panel-group{
+		margin-top: 30px;
+	}
+}
